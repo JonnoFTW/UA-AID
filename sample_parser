@@ -1,0 +1,12 @@
+import csv
+import matplotlib
+
+periods = {}
+path = "C:\\Users\\mack0242\\Downloads\\volumeStore.RURAL_201001_20130902115456.csv"
+with open(path) as csvfile:
+    reader = csv.reader(csvfile)
+    for row in reader:
+        print ','.join(row)
+        break
+    
+          
